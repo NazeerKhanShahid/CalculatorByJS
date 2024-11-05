@@ -4,7 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULATOR BY ME</title>
-    <link rel="stylesheet" href="../Calculator/calculator.css">
+   <style>
+       #cal {
+    height: 360px;
+    width: 250px;
+    border: 1px solid rgb(114, 104, 104);
+    border-radius: 5px;
+    background-color: rgb(11, 29, 109);
+
+}
+
+#display {
+    width: 90%;
+    height: 10%;
+    display:flex ;
+    justify-content: center;
+    margin: 10px;
+border: 1px solid rgb(128, 122, 122);
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.699);
+color: rgb(13, 172, 172);
+}
+
+.button_container {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin: 5px;
+     background-color: rgb(6, 46, 99);
+}
+
+
+
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 5px; 
+  background-color: rgb(14, 114, 145);
+}
+</style>
+
+
 </head>
 <body>
 
